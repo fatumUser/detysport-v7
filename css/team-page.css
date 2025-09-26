@@ -1,0 +1,16 @@
+.section-main__desc {
+    max-width: 554px;
+}
+
+.section-our-team-v2 {}
+
+@media only screen and (min-width: 700px) {
+.section-our-team-v2 .section-our-team__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 40px;
+}
+.section-our-team-v2 img {
+    width: 100%;
+}
+}

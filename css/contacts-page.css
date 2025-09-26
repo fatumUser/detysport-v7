@@ -1,0 +1,31 @@
+.section-main__desc {
+    max-width: 521px;
+}
+
+.section-contacts {
+
+}
+.section-contacts h2 {
+    margin-bottom: 30px;
+}
+.section-contacts p {
+    font-weight: 400;
+    font-size: 20px;
+}
+.section-contacts p.section-contacts__txt-bottom {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+.section-contacts h2 {
+    margin-bottom: 15px;
+}
+.section-contacts p {
+    max-width: 194px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.section-contacts p.section-contacts__txt-bottom {
+    margin-top: 15px;
+} 
+}
