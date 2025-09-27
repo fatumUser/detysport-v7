@@ -14,6 +14,8 @@ burgerIcon.onclick = function() {
   { $(" .section-feedback__form__group-checkbox input").removeAttr("checked"); 
   $(this).prop("checked", true); }); */
 
+$(".section-feedback__form__group-checkbox").find('div:first').find('input:first').prop('checked', true);
+
   $("input:checkbox").on('click', function() {
   // in the handler, 'this' refers to the box clicked on
   var $box = $(this);
